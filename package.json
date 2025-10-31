@@ -1,0 +1,15 @@
+{
+  "name": "api-server",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.78.0",
+    "next": "14.2.5",
+    "typescript": "^5.6.2"
+  }
+}
